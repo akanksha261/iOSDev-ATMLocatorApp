@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ATM Location Details</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/details.css">
+    <script type="text/javascript" src="js/detailsPage.js"> </script>
+  </head>
+  <body onload="initializePage()">
+    <div style="border-width: thin;border-style: none;height:100%">
+      <div id="labelTitle">Details</div>
+      <div id="detailsDiv">
+          <input type="button" id="backBtn" onclick="navBack();" value="Back"></input>
+          <div style="width:100%;margin: 10px 5px 5px 5px;">
+              <table id="detailTable">
+                <tr id='tr0' >
+                  <th colspan="2" id='th0'></th>
+                </tr>
+                <tr>
+                  <td>Name</td>
+                  <td id="td1"></td>
+                </tr>
+                <tr>
+                  <td>Address</td>
+                  <td id="td2"></td>
+                </tr>
+              </table>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
